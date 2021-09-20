@@ -1,0 +1,43 @@
+:root {
+    --clr-text: black;
+    --clr-background: white;
+
+    --text: var(--clr-text);
+    --background: var(--clr-background);
+    
+}
+
+.darkmode {
+    --clr-text: white;
+    --clr-background: black;
+
+    --text: var(--clr-text);
+    --background: var(--clr-background);
+}
+
+body {
+    background: rgb(60, 60, 60);
+    color: var(--clr-text);
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 40px;
+    margin: 0px;
+}
+section{
+    background: var(--background);
+    margin: 50px;
+    padding: 10px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
